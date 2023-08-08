@@ -1,13 +1,5 @@
 # Employee Attrition Prediction Using Machine Learning
 
-This project was created as a part of CSE343, Machine Learning Course at IIIT Delhi. 
-
-### Group Members
-1. [Aastha](https://github.com/aastha985 "GitHub Profile")
-2. [Aditi Sejal](https://github.com/asejal "GitHub Profile")
-3. [Vaibhav Soni](https://github.com/vaibhav2808 "GitHub Profile")
-4. [Samad Shahid](https://github.com/SamadShahid "GitHub Profile")
-
 ## Introduction
 
 Employee attrition refers to an employee’s voluntary
@@ -18,9 +10,6 @@ also analyzed the dataset to identify key factors contributing
 to an employee leaving a workforce. Our project will assist organizations in gaining fresh insights into what drives
 attrition and thus enhance retention rate.
 
-## Methodology
-
-![Methodology Flowchart](./Images/Flowchart.png)
 
 #### Machine Learning Models
 
@@ -58,19 +47,14 @@ numerical and categorical features. A sample row is shown below.
 
 ## Results
 
-<img src="Images/Table2.png" height="300">
-
-<img src="Images/Table3.png" height="300">
-
-<img src="Images/Table4.png" height="300">
 
 
-The figure below shows feature importance w.r.t random forest with oversampling. We observe that the most important
+
+ We observe that the most important
 features were MonthlyIncome followed by OverTime and Age, while the least important features were Performance
 Rating, Gender and BusinessTravel.
 
 
-<img src="Images/FeatureImportance.png" height="500">
 
 #### Best Performing Model
 The best performance was obtained in Random Forest Model
@@ -78,24 +62,3 @@ with PCA and Oversampling with an accuracy of 99.2%,
 the precision of 98.6%, recall of 99.8% and F1 Score of
 99.2%.
 
-## Instructions to run
-Jupyter Notebook can be run using Google Colab or locally using Anaconda Navigator.
-
-**Steps to run using Google Colab**
-1. Upload the dataset
-2. Click on Runtime -> Run all / Restart and Run all
-
-## Libraries Used
-1. [Numpy](https://numpy.org/)
-2. [Pandas](https://pandas.pydata.org/)
-3. [Matplotlib](https://matplotlib.org/)
-4. [Seaborn](https://seaborn.pydata.org/)
-5. [Scikit-learn](https://scikit-learn.org/stable/index.html)
-
-## Report 
-![1](Images/Report-1.jpg)
-![2](Images/Report-2.jpg)
-![3](Images/Report-3.jpg)
-![4](Images/Report-4.jpg)
-![5](Images/Report-5.jpg)
-![6](Images/Report-6.jpg)
